@@ -32,10 +32,17 @@ ul {
   text-align: center;
 }
 
+div{
+}
+
 .bg{
   background-image: url(../images/banner6.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background: cover;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
 }
 
 .my-pic{
@@ -53,18 +60,22 @@ ul {
   background: rgba(0, 0, 0, 0.55);
   text-align: center;
   margin-top: 50px;
+  margin-bottom: 50px;
   padding: 10px;
-  font-family: 'Play', sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 
 h1{
   margin-bottom: 20px;
   font-size: 40px;
+  font-family: 'Comfortaa', cursive;
 }
 
-#grad {
-  background: white;
-  color: #DDCA7D;
+#languages{
+  position: relative;
+  background: #DADDD8;
+  color: #393D3F;
+  padding: 100px 0px;
   /*
     background: grey; /* For browsers that do not support gradients
     background: -webkit-linear-gradient(#242331, #B0413E); /* For Safari 5.1 to 6.0
