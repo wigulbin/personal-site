@@ -38,11 +38,7 @@ div{
 .bg{
   background-image: url(../images/banner6.png);
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  background: cover;
-  position: relative;
-  width: 100vw;
-  height: 100vh;
+  background-size: 100%;
 }
 
 .my-pic{
@@ -75,7 +71,8 @@ h1{
   position: relative;
   background: #DADDD8;
   color: #393D3F;
-  padding: 100px 0px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   /*
     background: grey; /* For browsers that do not support gradients
     background: -webkit-linear-gradient(#242331, #B0413E); /* For Safari 5.1 to 6.0
