@@ -29,7 +29,8 @@ ul {
 #personal-nav{
   background-color: rgba(0, 0, 0, 0);
   border-color: rgba(0, 0, 0, 0);
-  position: absolute;
+  font-size: 20px;
+  color: black;
 }
 
 .construction{
@@ -81,16 +82,21 @@ h1{
   font-size: 40px;
   font-family: 'Comfortaa', cursive;
 }
+.experience-description{
+  font-size: 20px;
+}
 
-
-/*Experience
+/*Work Experience
 ************/
-#experience{
+#work-experience, #languages{
   position: relative;
   background: #DADDD8;
   color: #393D3F;
-  padding-top: 100px;
+  padding-top: 75px;
   padding-bottom: 75px;
+}
+.work{
+  background-color:white;
 }
 .experience-info{
   font-family: 'Oswald', sans-serif;
@@ -103,16 +109,60 @@ h1{
 .exp-title{
   padding-bottom: 3px;
 }
-
 .more-info{
   border-color: #DDCA7D;
 }
 
+/*Personal Experience
+********************/
+#personal-experience{
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+/*image overlay
+**************/
+.img{
+  width:100%;
+  height:100%;
+}
+.img-container{
+  padding:10px;
+}
+.img-container:hover .img{
+  opacity: 0.2;
+}
+.img-container:hover .middle{
+  opacity:1;
+}
+.middle{
+  font-family: 'Oswald', sans-serif;
+  font-size:15px;
+  transition: .5s ease;
+  opacity:0;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%,-50%);
+}
+.center-btn{
+  display:block;
+  margin: 0 auto;
+}
 /*Contact
 ********/
 #contact{
-  background: #1A281F;
+  background: #211A1D;
   color: #ADA8B6;
   padding-top: 100px;
   padding-bottom: 75px;
+}
+
+
+/*Footer
+*******/
+.footer{
+  background-color: #120309;
+  padding-top: 50px;
 }

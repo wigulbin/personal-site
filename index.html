@@ -4,76 +4,126 @@
     <meta charset="utf-8">
     <title>Will Gulbin's Site</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.4/jquery.fullpage.min.js"></script>
 
     <script type="text/javascript" src="js/script.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa|Oswald" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
     <div class="container-fluid bg">
-      <nav class="navbar navbar-default navbar-static-top" id="personal-nav">
-        <div class="navbar-header">
-          <h3 class="title navbar-brand">Will's Site</h3>
+      <nav class="navbar navbar-default" id="personal-nav">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <h3 class="title navbar-brand">Will's Site</h3>
+          </div>
+          <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="#work-experience">Work Experience</a></li>
+              <li><a href="#personal-experience">Personal Experience</a></li>
+              <li><a href="#languages">Languages</a></li>
+            </ul>
+          </div>
+        </nav>
+        <div class="row">
+          <div class="col-xs-3 col-md-3"></div>
+          <div class="col-xs-6">
+            <img class="img-thumbnail img-circle my-pic" src="images/willgulbin.png">
+          </div>
         </div>
-      </nav>
-      <div class="row">
-        <div class="col-xs-3 col-md-3"></div>
-        <div class="col-xs-6">
-          <img class="img-thumbnail img-circle my-pic" src="images/willgulbin.png">
+        <div class="row">
+          <div class="col-xs-3"></div>
+            <div class="col-xs-6" id="about">
+              <h2>Hi, my name is Will Gulbin and I am a recent graduate from Rutgers University. I majored in Information technology and Informatics and minored in Computer Science as well as Music. Currently I am seeking a position in companies for web development</h2>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-3"></div>
-        <div class="col-xs-6" id="about">
-          <h2>Hi, my name is Will Gulbin, a recent graduate from Rutgers University. I a majored in Information technology and Informatics and minored in Computer Science as well as Music. Currently I am seeking out positions in companies for web development</h2>
-        </div>
-      </div>
     </div>
-    <div class="container-fluid" id="experience">
-      <div class="row">
-        <div class="container more-info">
-        <h1>Experience</h1>
-        <div class="experience-info">
-          <h2 class="exp-title">Work</h2>
+    <div class="container-fluid">
+      <div class="row" id="work-experience">
+        <div class="container">
+          <h1>Work Experience</h1>
+          <h2>Synthesio</h2>
+          <br>
+          <h3>Technical Support Engineer Intern</h3>
           <ul class="list-group">
-            <li class="list-group-item">- Helped the QA process by creating a web application using the Python web framework Django for quality assurance on dashboards that are built for clients.</li>
-            <li class="list-group-item">- Streamlined the process of adding new websites to the company database by using JavaScript, that runs from bookmark and takes input from a file and does an ajax call to find out if the URL is in the database, returns statistics about status of the URL.</li>
-            <li class="list-group-item">- Improved readability for user activity logs by making a log reader that uses regular expressions (regex) to remove unnecessary information from a JSON file.</li>
-            <li class="list-group-item">- Automated customer response surveys by using JavaScript, Google Forms, and Google Sheets.</li>
-            <li class="list-group-item">- Composed and formatted support documentation for software created by the company</li>
+            <li class="list-group-item experience-description">- Helped the QA process by creating a web application using the Python web framework Django for quality assurance on dashboards that are built for clients.</li>
+            <li class="list-group-item experience-description">- Streamlined the process of adding new websites to the company database by using JavaScript, that runs from bookmark and takes input from a file and does an ajax call to find out if the URL is in the database, returns statistics about status of the URL.</li>
+            <li class="list-group-item experience-description">- Improved readability for user activity logs by making a log reader that uses regular expressions (regex) to remove unnecessary information from a JSON file.</li>
+            <li class="list-group-item experience-description">- Automated customer response surveys by using JavaScript, Google Forms, and Google Sheets.</li>
+            <li class="list-group-item experience-description">- Composed and formatted support documentation for software created by the company</li>
           </ul>
-          <br>
-          <h2 class="exp-title">Personal</h2>
-            <ul class="list-group">
-              <li class="list-group-item">- Created a website using HTML, CSS, JavaScript/jQuery, and PHP that allows users to query for pets located near them using the Rescue Groups API along with Google Maps API as well being able to register for accounts. The sites core functionality is completed; however, it is still being added to and constructed. Located under Pawdar repository.</li>
-              <li class="list-group-item">- Building a chat bot using Python and Twitch API that uses multi-threading to keep itself connected to the server while waiting for user input. Located under Chat-Bot repository.</li>
-            </ul>
-          <br>
-          <h2 class="exp-title">Languages</h2>
-            <ul class="list-group">
-              <li class="list-group-item">Python, Java</li>
-              <li class="list-group-item">HTML, CSS, JavaScript</li>
-              <li class="list-group-item">PHP, JSP, nodeJS</li>
-              <li class="list-group-item">mySQL, mongoDB</li>
-              <li class="list-group-item">Knowledge of git, selenium, AWS, RESTful API, XML, JSON</li>
-            </ul>
-          <br>
         </div>
+      </div>
+      <div class="row" id="personal-experience">
+        <div class="container">
+          <h1>Personal Experience</h1>
+          <br>
+          <h3>Listed below are projects that I have worked on and are available on my github. You can hover over the pictures to get a description and click the link inside to go to the repo</h3>
+          <br>
+          <br>
+          <div class="row">
+            <div class="col-xs-12 col-md-5 img-container" id="pawdar" >
+              <img src="images/pawdar-img.png" class="img" alt="pawdar">
+              <div class="middle">
+                <div class="text-align">
+                  <p class="experience-description">Created a website using HTML, CSS, JavaScript/jQuery, PHP, and mySQL that is hosted on AWS that allows users to query for pets located near them using the Rescue Groups API along with Google Maps API as well being able to register for accounts. The sites core functionality is completed; however, it is still being added to and constructed. Located under Pawdar repository.</p>
+                  <br>
+                  <a class="btn btn-primary center-btn" target="_blank" href="https://github.com/wigulbin/Pawdar">Repo</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2"></div>
+            <div class="col-xs-12 col-md-5 img-container" id="twitch-bot">
+              <img src="images/twitch_logo.png" class="img" alt="twitch bot">
+              <div class="middle">
+                <div class="text-align">
+                  <p class="experience-description">
+                    Building a chat bot using Python and Twitch API that uses multi-threading to keep itself connected to the server while waiting for user input. Located under Chat-Bot repository.
+                  </p>
+                  <br>
+                  <a class="btn btn-primary center-btn" target="_blank" href="https://github.com/wigulbin/Chat-Bot">Repo</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row" id="languages">
+        <div class="container">
+          <h1>Languages</h1>
+          <ul class="list-group">
+            <li class="list-group-item">Python, Java</li>
+            <li class="list-group-item">HTML, CSS, JavaScript</li>
+            <li class="list-group-item">PHP, JSP, nodeJS</li>
+            <li class="list-group-item">mySQL, mongoDB</li>
+            <li class="list-group-item">Knowledge of git, selenium, AWS, RESTful API, XML, JSON</li>
+          </ul>
         </div>
       </div>
     </div>
     <div class="container-fluid" id="contact">
       <div class="container">
         <h1>Contact</h1>
+        <h3>You can contact me directly at <a href="#contact">wigulbin@gmail.com</a> or by filling out the form below</h3>
+        <br>
+        <form class="form-group" action="mailto:wigulbin@gmail.com" method="post" enctype="text/plain">
+          <label for="email-subject">Subject</label>
+          <input type="text" name="email-subject" class="form-control" value="" placeholder="Subject">
+          <br>
+          <label for="email-body">Body</label>
+          <textarea name="email-body" class="form-control" rows="8" cols="80"></textarea>
+          <br>
+          <br>
+          <input type="submit" name="send-email" class="btn btn-default" value="Send Email">
+        </form>
       </div>
     </div>
     <div class="footer">
+      <div class="container">
 
+      </div>
     </div>
   </body>
 </html>
