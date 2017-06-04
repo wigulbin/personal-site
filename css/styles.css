@@ -26,6 +26,12 @@ ul {
     padding: 0
 }
 
+#personal-nav{
+  background-color: rgba(0, 0, 0, 0);
+  border-color: rgba(0, 0, 0, 0);
+  position: absolute;
+}
+
 .construction{
   color: #DDCA7D;
   background:#242331;
@@ -35,6 +41,11 @@ ul {
 div{
 }
 
+@media only screen and (max-width: 1400px) {
+  .bg{
+    background-color:black;
+  }
+}
 .bg{
   background-image: url(../images/banner6.png);
   background-repeat: no-repeat;
@@ -42,7 +53,7 @@ div{
 }
 
 .my-pic{
-  margin-top: 40px;
+  margin-top:40px;
   height: auto;
   width: auto;
   max-width: 100%;
@@ -56,9 +67,13 @@ div{
   background: rgba(0, 0, 0, 0.55);
   text-align: center;
   margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
   padding: 10px;
-  font-family: 'Oswald', sans-serif;
+}
+
+.title{
+  font-family: 'Comfortaa', cursive;
+  color:white;
 }
 
 h1{
@@ -67,26 +82,37 @@ h1{
   font-family: 'Comfortaa', cursive;
 }
 
-#languages{
+
+/*Experience
+************/
+#experience{
   position: relative;
   background: #DADDD8;
   color: #393D3F;
   padding-top: 100px;
-  padding-bottom: 100px;
-  /*
-    background: grey; /* For browsers that do not support gradients
-    background: -webkit-linear-gradient(#242331, #B0413E); /* For Safari 5.1 to 6.0
-    background: -o-linear-gradient(#242331, #B0413E); /* For Opera 11.1 to 12.0
-    background: -moz-linear-gradient(#242331, #B0413E); /* For Firefox 3.6 to 15
-    background: linear-gradient(#242331, #B0413E); /* Standard syntax
-  */
+  padding-bottom: 75px;
 }
-
+.experience-info{
+  font-family: 'Oswald', sans-serif;
+  padding-left: 10px;
+}
+.list-group-item{
+  background: #DADDD8;
+  font-size: 20px;
+}
+.exp-title{
+  padding-bottom: 3px;
+}
 
 .more-info{
   border-color: #DDCA7D;
 }
 
+/*Contact
+********/
 #contact{
-  background: #B0413E;
+  background: #1A281F;
+  color: #ADA8B6;
+  padding-top: 100px;
+  padding-bottom: 75px;
 }
