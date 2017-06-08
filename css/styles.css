@@ -92,6 +92,7 @@ h1{
 }
 .experience-description{
   font-size: 20px;
+  overflow: hidden;
 }
 
 /*Work Experience
@@ -139,7 +140,7 @@ h1{
   filter:brightness(25%);
 }
 .img-container{
-  padding:10px;
+  padding-bottom:20px;
 }
 .img-container:hover .img{
   opacity: 0.2;
