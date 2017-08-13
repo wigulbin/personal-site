@@ -1,4 +1,5 @@
 $(document).ready(function() {
+  $(".title").fadeIn(1000).removeClass('hidden');
   $("#wor-exp").click(function(){
     $('html, body').animate({
       scrollTop: $($.attr(this, 'href')).offset().top
