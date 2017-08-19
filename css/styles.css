@@ -29,26 +29,26 @@ ul {
 /*Navbar
 *******/
 #personal-nav{
-  position:absolute;
+  padding-top:10px;
+  /*position:absolute;*/
   width:100%;
-  color:white !important;
+  color:white;
   border-color: rgba(0, 0, 0, 0);
-  font-size: 20px;
+  font-size: 15px;
   font-family: 'Comfortaa', cursive;
   margin:0;
   z-index: 4;
 }
 
 .navbar-default .navbar-nav>li>a{
-  color:white !important;
+  color:black;
 }
 
 .navbar-default{
     background-color:rgba(248, 248, 248, 0)
 }
-
-.nav-items a{
-  color:white !important;
+.navbar-default .navbar-nav>li:hover>a{
+  color:grey;
 }
 
 .construction{
@@ -79,8 +79,8 @@ ul {
   text-align: center;
   color: white;
   font-size: 70px;
-  font-weight: bold;
-  text-decoration: underline;
+  /*font-weight: bold;*/
+  /*text-decoration: underline;*/
 }
 
 .bg2{
@@ -115,7 +115,9 @@ ul {
 }
 
 .title{
-  font-family: 'Comfortaa', cursive;
+  /*font-family: 'Anton', sans-serif;*/
+  font-family: 'Roboto', sans-serif;
+  /*font-weight: 700 bold;*/
   color:white;
   transition: .9s ease;
   opacity:1;
@@ -124,6 +126,14 @@ ul {
   left:50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%,-50%);
+}
+
+.light{
+  font-weight: thin;
+}
+
+.bold{
+  font-weight: 900;
 }
 
 h1{
